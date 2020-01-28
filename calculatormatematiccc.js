@@ -121,11 +121,7 @@ function factorial(a = 1) {
     
 	var sum = (b * ++b) / 2;
 	
-	var output;
-	
-    output a > 1 ? sum - limita(0, --a) : sum;
-	
-	output += ' [ ' + ' ] ';
+	var output a > 1 ? sum - limita(0, --a) : sum;
 	
 	return output;
 	}
